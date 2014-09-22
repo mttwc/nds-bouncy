@@ -1,4 +1,4 @@
 #!/bin/bash
 
 make
-desmume test.nds
+desmume ${PWD##*/}.nds
